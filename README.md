@@ -23,20 +23,20 @@ Main objective of this project is to Use BeautifulSoup,a web scraping tool, coll
 
 ## Workflow
 
-1. Using BeautifulSoup for extracting data from any text article website, ignoring the header and footer of the site, and only extracting the text data of that article and saving it as a [Text file](Text-Data-Analysis/output/output_content.txt) to system.
+1. Using BeautifulSoup for extracting data from any text article website, ignoring the header and footer of the site, and only extracting the text data of that article and saving it as a [Text file](output/output_content.txt) to system.
 
 2. Using the saved text file of the article and implementing data cleaning on it by converting it to an array of words using the NLTK library, removing stop words , punctuation, etc.
 
-3. Performing text analysis on the clean data as [Calculation References](https://github.com/chayangirdhar/Text-Data-Analysis-/edit/main/README.md#calculation-references).
+3. Performing text analysis on the clean data as [Calculation References](#calculation-references).
 
-4. Saving output to a saperate [Text file](Text-Data-Analysis/output/analysis_output.txt).
+4. Saving output to a saperate [Text file](output/analysis_output.txt).
 
 
 ## Calculation References 
 
-1. POSITIVE SCORE = Number of words in document from [Positive words](Text-Data-Analysis/positive-words.txt) file
+1. POSITIVE SCORE = Number of words in document from [Positive words](positive-words.txt) file
 
-2. NEGATIVE SCORE = Number of words in document from [Negative words](Text-Data-Analysis/negative-words.txt) file
+2. NEGATIVE SCORE = Number of words in document from [Negative words](negative-words.txt) file
 
 3. POLARITY SCORE = (Positive Score – Negative Score)/((Positive Score + Negative Score) + 0.000001)
 
