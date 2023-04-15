@@ -63,7 +63,7 @@ Main objective of this project is to Use BeautifulSoup,a web scraping tool, coll
 
 ## Acknowledgements
 
- - [List of Positive and Negative words](http://www.cs.uic.edu/~liub/FBS/opinion-lexicon-English.rar)
+ - [List of Positive and Negative words](http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html) [(Download link)](http://www.cs.uic.edu/~liub/FBS/opinion-lexicon-English.rar)
  - [Article Used as Example](https://insights.blackcoffer.com/how-to-protect-future-data-and-its-privacy-blackcoffer/)
 
 
