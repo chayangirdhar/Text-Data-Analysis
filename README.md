@@ -34,9 +34,9 @@ Main objective of this project is to Use BeautifulSoup,a web scraping tool, coll
 
 ## Calculation References 
 
-1. POSITIVE SCORE = Number of words from Positive words file
+1. POSITIVE SCORE = Number of words in document from [Positive words](Text-Data-Analysis/positive-words.txt) file
 
-2. NEGATIVE SCORE = Number of words from Negative words file
+2. NEGATIVE SCORE = Number of words in document from [Negative words](Text-Data-Analysis/negative-words.txt) file
 
 3. POLARITY SCORE = (Positive Score – Negative Score)/((Positive Score + Negative Score) + 0.000001)
 
